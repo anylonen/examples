@@ -4,6 +4,8 @@ PROJECT( cpp_hello )
 
 Find_Package(Lua51)
 
+SET( CMAKE_CXX_FLAGS "-g" )
+
 Include_directories(${LUA_INCLUDE_DIR})
 
 ADD_EXECUTABLE( cpp_hello cpp_hello.cpp )
