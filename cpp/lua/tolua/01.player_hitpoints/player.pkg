@@ -1,0 +1,9 @@
+$#include "player.h"
+
+class Player {
+    Player();
+    ~Player();
+    void setHealth(int health);
+    int getHealth();
+};
+
